@@ -1,1 +1,0 @@
-# mpgraphicalsolutions.github.io
