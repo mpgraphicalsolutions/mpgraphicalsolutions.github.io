@@ -78,7 +78,7 @@ header .row .col-md-5 img {
 }
 
 header {
-  background: #ff512f;
+  background: #000000;
   /* fallback for old browsers */
   background: var(--bggradient);
 }
@@ -100,6 +100,10 @@ header .container .col-md-7 h1 {
 
 header .container .col-md-7 p {
   padding: 1vmin 5vmin;
+}
+
+header img {
+    margin-top: 250px;
 }
 
 .primary-btn {
@@ -332,7 +336,7 @@ footer {
 }
 
 footer p > span {
-  color: #ff512f;
+  color: #ff2f2f;
 }
 
 footer input {
@@ -348,13 +352,17 @@ footer .input-group .input-group-text {
   border: none;
 }
 
-footer .column i {
-  color: #dd2476;
+footer .column a {
+  color: #ffffff;
+}
+
+footer .column a:hover {
+    text-decoration: none;
 }
 
 /* It is Adjacent sibling combinator */
 
-footer .column i + i {
+footer .column a {
   padding: 0 0.5em;
 }
 
