@@ -352,8 +352,17 @@ footer .input-group .input-group-text {
   border: none;
 }
 
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
 footer .column a {
   color: #ffffff;
+  text-decoration: none;
 }
 
 footer .column a:hover {
